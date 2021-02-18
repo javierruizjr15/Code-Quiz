@@ -1,0 +1,24 @@
+#highscore {
+  font-weight: bold;
+  color: indigo;
+}
+
+#time {
+  font-weight: bold;
+  color: indigo;
+}
+
+#title {
+  font-weight: bold;
+}
+
+.btnstyle {
+  background-color: indigo;
+  color: white;
+  font-weight: bold;
+}
+
+/* #startcard {
+  margin-left: 20%;
+  margin-right: 20%
+} */
