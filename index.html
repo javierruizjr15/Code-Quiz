@@ -7,6 +7,7 @@
   <!-- Bootstrap CDN -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
     <link rel="stylesheet" href="style.css">
   <title>Code Quiz</title>
 </head>
@@ -18,14 +19,24 @@
       </div>
   
       <div class="col col-sm col-md col-lg col-xl col-xxl d-flex flex-row-reverse">
-        <p id="time">Time:</p>
+        <p id="timer">Time:</p>
       </div>
     </div>
   </nav>
 
   <!-- Card here -->
-  <div class="container">
-<div class="d-flex justify-content-center" id="card">Card Here</div>
+
+
+<div class="container" id=carddiv>
+  <h1 class="d-flex justify-content-center" id="title">Coding Quiz Challenge</h1>
+
+  <h6 class="d-flex justify-content-center text-center">Try to answer the following code-related questions withing the
+    time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds</h6>
+
+  <div class="d-flex justify-content-center">
+    <button type="button" class="btn btn-deep-purple btnstyle" id="start">Start Quiz</button>
+  </div>
+
 
 
   </div>
