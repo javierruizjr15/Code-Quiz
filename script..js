@@ -6,20 +6,20 @@ let points = 0;
 let questionarray = [
   // lets see what this div class looks like for button, might have to change this
   // here is Q1
-  `<h2>Question 1</h2>
-<h6>Here is ? 1</h6>
+  `<h2>Javascript goes at the bottom of the HTML_____</h2>
+<h6>Question 1</h6>
   <div class="d-flex justify-content-center">
-    <button type="button" class="btn btn-deep-purple btnstyle corrrect next ">A1</button>
-    <button type="button" class="btn btn-deep-purple btnstyle wrong next ">A2</button>
+    <button type="button" class="btn btn-deep-purple btnstyle corrrect next ">body</button>
+    <button type="button" class="btn btn-deep-purple btnstyle wrong next ">header</button>
   </div>
   <div class="d-flex justify-content-center">
-    <button type="button" class="btn btn-deep-purple btnstyle wrong next ">A3</button>
-    <button type="button" class="btn btn-deep-purple btnstyle wrong next ">A4</button>
+    <button type="button" class="btn btn-deep-purple btnstyle wrong next ">head</button>
+    <button type="button" class="btn btn-deep-purple btnstyle wrong next ">footer</button>
   </div>`,
 
   // here is Q2
-  `<h2>Question 2</h2>
-<h6>Here is ? 2</h6>
+  `<h2>What </h2>
+<h6>Question 2</h6>
   <div class="d-flex justify-content-center">
     <button type="button" class="btn btn-deep-purple btnstyle corrrect next ">A1</button>
     <button type="button" class="btn btn-deep-purple btnstyle wrong next ">A2</button>
@@ -141,7 +141,7 @@ document.getElementById('start').addEventListener('click', () => {
         }
       }
 
-      if (slidenum > (questionarray.length - 1 || count <= 0){
+      if (slidenum > (questionarray.length - 1) || count <= 0) {
 
         console.log(points, count)
 
@@ -149,9 +149,9 @@ document.getElementById('start').addEventListener('click', () => {
 
         console.log(finalScore)
 
-        document.getElementById('carddiv').innerHTML = 
+        document.getElementById('carddiv').innerHTML =
 
-        <h1>Game Over!!</h1>
+          `<h1>Game Over!!</h1>
           <div>
             <form>
               <label for="initials">Initials</label>
@@ -166,16 +166,10 @@ document.getElementById('start').addEventListener('click', () => {
 
           <p>Time left: ${count}</p>
 
-          <p>Final score: ${finalScore}</p>
-
-
-          
-          
-          
-        }
-        
-      })
-
-
+          <p>Final score: ${finalScore}</p>`
+      }
+    }
 
   })
+
+})
