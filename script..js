@@ -18,51 +18,51 @@ let questionarray = [
   </div>`,
 
   // here is Q2
-  `<h2>What </h2>
+  `<h2>What do you put at the end of a javascript file when saving?</h2>
 <h6>Question 2</h6>
   <div class="d-flex justify-content-center">
-    <button type="button" class="btn btn-deep-purple btnstyle corrrect next ">A1</button>
-    <button type="button" class="btn btn-deep-purple btnstyle wrong next ">A2</button>
+    <button type="button" class="btn btn-deep-purple btnstyle corrrect next ">.js</button>
+    <button type="button" class="btn btn-deep-purple btnstyle wrong next ">.html</button>
   </div>
   <div class="d-flex justify-content-center">
-    <button type="button" class="btn btn-deep-purple btnstyle wrong next ">A3</button>
-    <button type="button" class="btn btn-deep-purple btnstyle wrong next ">A4</button>
+    <button type="button" class="btn btn-deep-purple btnstyle wrong next ">.css</button>
+    <button type="button" class="btn btn-deep-purple btnstyle wrong next ">.md</button>
   </div>`,
 
   // here is Q3
-  `<h2>Question 3</h2>
-<h6>Here is ? 3</h6>
+  `<h2>In javascript what is needed after a form</h2>
+<h6>Question 3</h6>
   <div class="d-flex justify-content-center">
-    <button type="button" class="btn btn-deep-purple btnstyle corrrect next ">A1</button>
-    <button type="button" class="btn btn-deep-purple btnstyle wrong next ">A2</button>
+    <button type="button" class="btn btn-deep-purple btnstyle corrrect next ">event.prevent</button>
+    <button type="button" class="btn btn-deep-purple btnstyle wrong next ">getElementByID</button>
   </div>
   <div class="d-flex justify-content-center">
-    <button type="button" class="btn btn-deep-purple btnstyle wrong next ">A3</button>
-    <button type="button" class="btn btn-deep-purple btnstyle wrong next ">A4</button>
+    <button type="button" class="btn btn-deep-purple btnstyle wrong next ">.form</button>
+    <button type="button" class="btn btn-deep-purple btnstyle wrong next ">.venom joker</button>
   </div>`,
 
   // here is Q4
-  `<h2>Question 4</h2>
-<h6>Here is ? 4</h6>
+  `<h2>How do you start a boiler plate in HTML</h2>
+<h6>Question 4</h6>
   <div class="d-flex justify-content-center">
-    <button type="button" class="btn btn-deep-purple btnstyle corrrect next ">A1</button>
-    <button type="button" class="btn btn-deep-purple btnstyle wrong next ">A2</button>
+    <button type="button" class="btn btn-deep-purple btnstyle corrrect next ">!~Enter</button>
+    <button type="button" class="btn btn-deep-purple btnstyle wrong next ">@~Enter</button>
   </div>
   <div class="d-flex justify-content-center">
-    <button type="button" class="btn btn-deep-purple btnstyle wrong next ">A3</button>
-    <button type="button" class="btn btn-deep-purple btnstyle wrong next ">A4</button>
+    <button type="button" class="btn btn-deep-purple btnstyle wrong next ">#~Enter</button>
+    <button type="button" class="btn btn-deep-purple btnstyle wrong next ">$~Enter</button>
   </div>`,
 
   // here is Q5
-  `<h2>Question 5</h2>
-<h6>Here is ? 5</h6>
+  `<h2>Is Javier awesome</h2>
+<h6>Question 5</h6>
   <div class="d-flex justify-content-center">
-    <button type="button" class="btn btn-deep-purple btnstyle corrrect next ">A1</button>
-    <button type="button" class="btn btn-deep-purple btnstyle wrong next ">A2</button>
+    <button type="button" class="btn btn-deep-purple btnstyle corrrect next ">Yes</button>
+    <button type="button" class="btn btn-deep-purple btnstyle wrong next ">no</button>
   </div>
   <div class="d-flex justify-content-center">
-    <button type="button" class="btn btn-deep-purple btnstyle wrong next ">A3</button>
-    <button type="button" class="btn btn-deep-purple btnstyle wrong next ">A4</button>
+    <button type="button" class="btn btn-deep-purple btnstyle wrong next ">no</button>
+    <button type="button" class="btn btn-deep-purple btnstyle wrong next ">no</button>
   </div>`,
 
 ]
